@@ -1,0 +1,91 @@
+Web Tech Notes:
+
+1. em : percentage in css like 2em for size means 200 %
+
+2. The JavaScript <script> in body shd be last because if there is an error in javascript then at least the html files will come properly
+
+3. console. log will come in website . inspect 
+
+4. website.alert is the pop up box we see on top of the page usually
+
+5.So to type on or like give h1 tag content pr p tag content then in html give id for both
+Then in JavaScript we have to put document.getElementById().textContent=
+when you just put document.getElementById() you will get the whole tag with content
+but when you put document.getElementById().textContent you will get the content exactly inside h1 tag or p tag etc.
+
+6.  Datatypes : 
+to check the type : typeof(x) (like that) assign like let x = 
+var : global scope can use anywhere
+let : local scope if defined inside the block can use it only within it 
+const: cannot change after declaring (local scope)
+while printing in console.log string [shd be assigned and then printed or typed in double cotes in log number can be directly given if string not given in double cotes it will take it as reference variable
+Undefined : when a variable is not assigned any value it is taken as undefined
+NULL : Explicitly assigning a NULL value to it like telling it nothing is there
+Primitive Datatype : Number ,  String , Boolean , Null , Undefined 
+Non Primitive Datatype : Object , Array
+
+7. Node js creates a environment to run js 
+
+8. DOM: Document Object Model
+
+9. Events : like when the user does somethign some change we have to make in our webpage 
+Tyes of Events :
+.onchange--> like you are typing in a box or selecting something in dropdown then after then you are clicking outside that box what prints that time is taken care by this
+.onclick--> like this is used when we click a button or an html element
+.onmouseover--> like this is triggered when a mouse hovers over an element 
+.onmouseout--> like this is triggered when a mouse moves from the element (like after hovering)
+[onmouseover and onmouseout is used when like you want to hover and clickable text so when the mouse is on it , it shd be in blue else move from it ,  it shd be in black like that]
+.onkeyup-->is like used whenever you type soemthing in the input box or something you want the same to simultaneously print  
+.onkeydown--> like it prints whatever you are entered in the input box
+(this is mainly used for form validation all to check if the entered password meets the needs like that)
+[Event.preventDefault()-->is used to stop the default action from happening
+placeholder()-->is a HTML attribut which shows hint text inside the unput box when its empty or not meet the condition give like that] 
+.onload-->when the page is fully loaded whatever you ehat to print 
+
+
+10. textcontent works for h1 h2 div p all
+.value only works for input select all
+when you get an element from .value it will be always in text so you have to convert in js to its respective format 
+
+11. When you clciking the button only the things happening inside that function will happen newly others outside like normally inside js will not change
+
+
+12. to add/create a new element or tag in js you have to use document.createElement("put whatever tag you want ")
+then use .textcontent for this to assign item or content in that tag 
+
+13. In button we will pass in the function something called event it will have all the functions and properties of the button so button.target will give the exact tag and it structure and content so button.target.textContent will give the exact text in that button
+
+14. .remove in script will remove the tag with the text in the page / event.target.remove can you used to delete multiple stuffs like that 
+event .target .parentelement.remove will remove that element and the parent tag also 
+
+15. HTML: Hypertext Markup language 
+
+16. Anything we do inside the tag is called as attribute
+in img tag--> src attribute : tell where the image is this that is the path
+              width : to change the size of the image
+              alt : If the image is not found then then will come like wrong path or                                something like that
+br : takes the element after this to the next line
+center : indise it all will go tot center
+
+17. In HTML we have ordered(1) and unordered(.) list
+
+18. Iframe : to bring another website into out page
+hr : brings a line into our page
+
+19. Grounp together html contents
+span: inline container to grp elements for styling
+div: block container to grp elements for styling
+
+20. InnerHTML gives the ineer html content like in div tag we have h1 tag inside div.innerhtml will give the whole h1 tag with content
+
+21. Selecting elements:
+1. get element by id
+2. query selector to select class tag all inside you have to give . / based on what you are selecting
+query selctor all : means all the class with the same name or all the h1 tag will get selected  is like a list you can access it wil a index as uaual as list
+3.get element by class name 
+4.get elemetn by tag name
+
+22. prepend append on to
+insert agjecent element means it will ask where to add and what to add like that
+
+ 
